@@ -1,0 +1,12 @@
+messages:
+    day:
+        text: "§a%p made the sun rise in %w."
+        enable: true
+    night:
+        text: "§a%p made the moon rise in %w."
+        enable: true
+    error:
+        wrongWay: "§cYou executed the command in a wrong way."
+        notAllowed: "§cYou are not allowed to use this command."
+alias:
+    console: "Admin"

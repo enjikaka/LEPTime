@@ -1,0 +1,22 @@
+name: LEPTime
+main: se.enji.lep.Time
+author: enjikaka
+website: http://enji.se
+version: 0.2
+
+commands:
+    time:
+        description: Changes the time to day.
+        usage: Type /<command> (day/night) (world) to change time.
+        permission: lep.time.*
+
+permissions:
+    lep.time.*:
+        description: Gives access to all Time commands.
+        children:
+            lep.time.day: true
+            lep.time.night: true
+    lep.time.day:
+        description: Allows you to change the time to day.
+    lep.time.night:
+        description: Allows you to change the time to night.
